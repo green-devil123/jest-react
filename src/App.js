@@ -1,23 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
 
 function App() {
+  const [data, setData] = useState("");
+  const [value, setValue] = useState("");
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>First React App Case</p>
+      <input
+        id="1"
+        type='text'
+        placeholder='Enter a name'
+        name="username"
+        readOnly
+        value="tarun agarwal"
+      />
+      <br/>
+      <br/>
+      <img title='AI generate image' src='https://sm.mashable.com/t/mashable_me/photo/default/new-project-1_tecm.1248.jpg'/>
+      <br/>
+      <br/>
+      {/* <input type="text"
+      onChange={(e)=>setData(e.target.value+"test")}/>
+      <br/> */}
+      {data}
+      <br/>
+      <br/>
+      <button onClick={()=>setValue("Tarun agarwal")}>Update value</button>{value}
     </div>
   );
 }

@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Snapshot from './Snapshot';
+import Button1 from './button/Button1';
+import GetByAllRole from './GetByAllRole/GetByAllRole';
+import GetByRole from './GetByRole/GetByRole';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Snapshot/> */}
+    {/* <Button1/> */}
+    {/* <GetByRole/> */}
+    <GetByAllRole/>
   </React.StrictMode>
 );
 
