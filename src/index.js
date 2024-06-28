@@ -5,8 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Snapshot from './Snapshot';
 import Button1 from './button/Button1';
-import GetByAllRole from './GetByAllRole/GetByAllRole';
+import GetByAllRole from './GetByRole/GetByRole2';
 import GetByRole from './GetByRole/GetByRole';
+import GetByRole2 from './GetByRole/GetByRole2';
+import GetAllByLabelText from './GetAllByLabelText/GetAllByLabelText';
+import GetAllByPlaceholder from './GetAllByPlaceholder/GetAllByPlaceholder';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -14,7 +17,10 @@ root.render(
     {/* <Snapshot/> */}
     {/* <Button1/> */}
     {/* <GetByRole/> */}
-    <GetByAllRole/>
+    {/* <GetByRole2/> */}
+    {/* <GetByAllRole/> */}
+    {/* <GetAllByLabelText/> */}
+    <GetAllByPlaceholder/>
   </React.StrictMode>
 );
 

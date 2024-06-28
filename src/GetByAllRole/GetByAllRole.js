@@ -1,16 +1,22 @@
-function GetByAllRole(){
-    return (
+export default function GetByAllRole(){
+    return(
         <div>
-            <button>Btn 1</button>
-            <button>Btn 2</button>
-            <label htmlFor="input1">User Name</label>
-            <input type="text" id="input1"/>
-            <label htmlFor="input2">User Age</label>
-            <input type="text" id="input2"/>
-            <div role="dummy">Tarun</div>
+            <h1>Get All By Role</h1>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
 
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+            </select>
         </div>
     )
-
 }
-export default GetByAllRole;
