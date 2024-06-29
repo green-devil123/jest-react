@@ -5,11 +5,19 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Snapshot from './Snapshot';
 import Button1 from './button/Button1';
-import GetByAllRole from './GetByRole/GetByRole2';
-import GetByRole from './GetByRole/GetByRole';
-import GetByRole2 from './GetByRole/GetByRole2';
-import GetAllByLabelText from './GetAllByLabelText/GetAllByLabelText';
-import GetAllByPlaceholder from './GetAllByPlaceholder/GetAllByPlaceholder';
+import GetByAllRole from './RTL/GetByRole/GetByRole2';
+import GetByRole from './RTL/GetByRole/GetByRole';
+import GetByRole2 from './RTL/GetByRole/GetByRole2';
+import GetAllByLabelText from './RTL/GetAllByLabelText/GetAllByLabelText';
+import GetAllByPlaceholder from './RTL/GetAllByPlaceholder/GetAllByPlaceholder';
+import GetTextAndGetAllText from './RTL/GetTextAndGetAllText/GetTextAndGetAllText';
+import GetByTestIdAndAllTestId from './RTL/GetByTestIdAndAllTestId/GetByTestIdAndAllTestId';
+import OverRideTestId from './RTL/OverRideTestId/OverRideTestId';
+import GetByDisplayValAndAllValue from './RTL/GetByDisplayValAndAllValue/GetByDisplayValAndAllValue';
+import GetByTitleAndAllByTitle from './RTL/GetByTitleAndAllByTitle/GetByTitleAndAllByTitle';
+import GetByAltTextAndAllAltText from './RTL/GetByAltTextAndAllAltText/GetByAltTextAndAllAltText';
+import AssertionWithNeg from './AssertionWithNeg/AssertionWithNeg';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -20,7 +28,14 @@ root.render(
     {/* <GetByRole2/> */}
     {/* <GetByAllRole/> */}
     {/* <GetAllByLabelText/> */}
-    <GetAllByPlaceholder/>
+    {/* <GetAllByPlaceholder/> */}
+    {/* <GetTextAndGetAllText/> */}
+    {/* <GetByTestIdAndAllTestId/> */}
+    {/* <OverRideTestId/> */}
+    {/* <GetByDisplayValAndAllValue/> */}
+    {/* <GetByTitleAndAllByTitle/> */}
+    {/* <GetByAltTextAndAllAltText/> */}
+    <AssertionWithNeg/>
   </React.StrictMode>
 );
 
