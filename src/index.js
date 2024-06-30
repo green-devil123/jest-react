@@ -17,6 +17,8 @@ import GetByDisplayValAndAllValue from './RTL/GetByDisplayValAndAllValue/GetByDi
 import GetByTitleAndAllByTitle from './RTL/GetByTitleAndAllByTitle/GetByTitleAndAllByTitle';
 import GetByAltTextAndAllAltText from './RTL/GetByAltTextAndAllAltText/GetByAltTextAndAllAltText';
 import AssertionWithNeg from './AssertionWithNeg/AssertionWithNeg';
+import TextMatch from './TextMatch/TextMatch';
+import TextMatchWithFunc from './TextMatch/TextMatchWithFunc';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -35,7 +37,9 @@ root.render(
     {/* <GetByDisplayValAndAllValue/> */}
     {/* <GetByTitleAndAllByTitle/> */}
     {/* <GetByAltTextAndAllAltText/> */}
-    <AssertionWithNeg/>
+    {/* <AssertionWithNeg/> */}
+    {/* <TextMatch/> */}
+    <TextMatchWithFunc/>
   </React.StrictMode>
 );
 
