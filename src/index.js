@@ -19,6 +19,13 @@ import GetByAltTextAndAllAltText from './RTL/GetByAltTextAndAllAltText/GetByAltT
 import AssertionWithNeg from './AssertionWithNeg/AssertionWithNeg';
 import TextMatch from './TextMatch/TextMatch';
 import TextMatchWithFunc from './TextMatch/TextMatchWithFunc';
+import QueryByAndAll from './QueryByAndAll/QueryByAndAll';
+import CustomQuery from './CustomQuery/CustomQuery';
+import ClickUserEvent from './ClickUserEvent/ClickUserEvent';
+import ChangeEvent from './ChangeEvent/ChangeEvent';
+import Act from './Act/Act';
+import ComponentTesting from './ComponentTesting/ComponentTesting';
+import PropsFunction from './PropsFunction/PropsFunction';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -39,7 +46,15 @@ root.render(
     {/* <GetByAltTextAndAllAltText/> */}
     {/* <AssertionWithNeg/> */}
     {/* <TextMatch/> */}
-    <TextMatchWithFunc/>
+    {/* <TextMatchWithFunc/> */}
+    {/* <QueryByAndAll/> */}
+    {/* <CustomQuery/> */}
+    {/* <QueryNestedElement/> */}
+    {/* <ClickUserEvent/> */}
+    {/* <ChangeEvent/> */}
+    {/* <Act/> */}
+    {/* <ComponentTesting/> */}
+    <PropsFunction/>
   </React.StrictMode>
 );
 
