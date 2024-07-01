@@ -26,6 +26,7 @@ import ChangeEvent from './ChangeEvent/ChangeEvent';
 import Act from './Act/Act';
 import ComponentTesting from './ComponentTesting/ComponentTesting';
 import PropsFunction from './PropsFunction/PropsFunction';
+import Debugging from './Debugging/Debugging';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -54,7 +55,8 @@ root.render(
     {/* <ChangeEvent/> */}
     {/* <Act/> */}
     {/* <ComponentTesting/> */}
-    <PropsFunction/>
+    {/* <PropsFunction/> */}
+    <Debugging/>
   </React.StrictMode>
 );
 
